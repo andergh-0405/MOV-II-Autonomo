@@ -29,7 +29,7 @@ export const CuadradoScreen = () => {
                 onPress={() => {
                     const resultado = calcularArea()
                     setarea(resultado)
-                    Alert.alert(`El area del cuadrado es: ${resultado}`)
+                    Alert.alert('Area',`El area del cuadrado es: ${resultado}`)
                     setlado(0)
                 }}>
 

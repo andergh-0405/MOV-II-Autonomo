@@ -63,7 +63,7 @@ export const PromedioScreen = () => {
             <TouchableOpacity style={styles.button}
                 onPress={() => {
                     const promedio1 = calcularPromedio(estudiante1);
-                    Alert.alert(`El promedio de ${estudiante1.nombre} es: ${promedio1.toFixed(2)}`);
+                    Alert.alert('Promedio',`El promedio de ${estudiante1.nombre} es: ${promedio1.toFixed(2)}`);
                 }}>
                 <Text style={styles.text1}>
                     Viviana Perez
@@ -73,7 +73,7 @@ export const PromedioScreen = () => {
             <TouchableOpacity style={styles.button}
                 onPress={() => {
                     const promedio1 = calcularPromedio(estudiante2);
-                    Alert.alert(`El promedio de ${estudiante2.nombre} es: ${promedio1.toFixed(2)}`);
+                    Alert.alert('Promedio',`El promedio de ${estudiante2.nombre} es: ${promedio1.toFixed(2)}`);
                 }}>
                 <Text style={styles.text1}>
                     Wendy Gomez
@@ -83,7 +83,7 @@ export const PromedioScreen = () => {
             <TouchableOpacity style={styles.button}
                 onPress={() => {
                     const promedio1 = calcularPromedio(estudiante3);
-                    Alert.alert(`El promedio de ${estudiante3.nombre} es: ${promedio1.toFixed(2)}`);
+                    Alert.alert('Promedio',`El promedio de ${estudiante3.nombre} es: ${promedio1.toFixed(2)}`);
                 }}>
                 <Text style={styles.text1}>
                     Gerson Ruiz

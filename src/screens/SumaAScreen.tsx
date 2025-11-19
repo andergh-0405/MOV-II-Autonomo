@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, TouchableOpacity, View } from 'react-native'
+import { Alert, Text, TouchableOpacity, View } from 'react-native'
 import { StyleSheet } from 'react-native'
 
 const numeros: number[] = [8, 18, 28, 38, 48, 58];
@@ -21,7 +21,7 @@ export const SumaAScreen = () => {
     <TouchableOpacity
         onPress={() => {
             const resultado = calcularSuma(numeros);
-            alert(`La suma del arreglo es: ${resultado}`);
+            Alert.alert('Suma',`La suma del arreglo es: ${resultado}`);
         }}
     >
         <Text style={styles.button}>Ver el Total</Text>
